@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Graficador de funciones</title>
+	<link rel="stylesheet" href="libs/bootstrap.min.css">
+	<style>
+		div.funcion{
+			font-size: 20px;
+		}
+		input[type="number"]{
+			display: inline-block;
+			width: 40px;
+			text-align: center;
+		}
+		input[type="text"],
+		input[type="text"]{
+			width: 20px;
+			margin: 0 10px;
+		}
+		.graficas{
+			display: none;
+		}
+		.tabla{
+			border: 1px solid #e1e1e1;
+		}
+		.tabla thead{
+			background: #000;
+			color: #fff;c
+		}
+		.tabla td{
+			padding: 10px 20px;
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	  <!--Menu-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 	<div class="container">
+ 		   <a class="navbar-brand" href="#">Calculo Diferencial</a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav mr-auto">
+	        <li class="nav-item active">
+	          <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="aplicaciones.html">Aplicaciones</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	            Unidades
+	          </a>
+	          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	            <a class="dropdown-item" href="primeraunidad.html">Primera</a>
+              <a class="dropdown-item" href="segundaunidad.html">Segunda</a>
+	          </div>
+	        </li>
+	      </ul>
+	      <form class="form-inline my-2 my-lg-0">
+	        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	      </form>
+	    </div>
+ 	</div>
+  </nav>
+
+	<div class="container">
+		
+		<div class="row my-4">
+			<div class="col-3">
+				<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+				<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#cuadraticas" role="tab" aria-controls="v-pills-home" aria-selected="true">Funciones Cuadraticas</a>
+				<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Funciones Cubicas</a>
+				<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Derivar Funcion</a>
+				</div>
+    		</div>
+			<div class="col-9">
+				<div class="tab-content" id="v-pills-tabContent">
+					<!-- Funcion cuadratica -->
+				<div class="tab-pane fade show active" id="cuadraticas" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+					<div class="row ">
+						<!--Seccion para añadir la funcion-->
+						<div class="col-md-4 funcion">
+							<input type="number" id="cuadrado" placeholder="12" min="0" pattern="^[0-9]+">x2<input type="text" id="signo1" placeholder="+"><input type="number" id="uno" placeholder="2" min="0" pattern="^[0-9]+">X<input type="text" id="signo2" placeholder="-" ><input type="number" id="solo" placeholder="10" min="0" pattern="^[0-9]+"> <br>
+							<button class="btn btn-primary my-3" id="graficar">Graficar</button>
+						</div>
+						
+
+						<!--Seccion para añadir la grafica-->
+						<div class="col-md-8 graficas">
+							<div class="row">
+								<div class="col-md-3">
+									<div class="tablaValores">
+										<table class="tabla">
+											<thead class="thead-dark">
+												<tr>
+													<td scope="col">X</td>
+													<td scope="col">Y</td>
+												</tr>
+											</thead>
+											<tbody id="añadirValores">
+												
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+					<!-- Funcion Cubica -->
+				<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+
+					<!-- Derivar Funcion -->
+				<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+				</div>
+			</div>
+  		</div>
+
+
+
+
+	</div>
+
+
+	<script src="libs/jquery.js"></script>
+	<script src="libs/bootstrap.min.js"></script>
+	<script src="libs/scripts.js"></script>
+</body>
+</html>
