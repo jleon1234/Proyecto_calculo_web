@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	//codigo para grafica de funciones
+
 	$('#graficar').on('click', function(){
 		let cuadrado = parseInt($('#cuadrado').val());
 		let signo1 = $('#signo1').val();
@@ -15,8 +17,6 @@ $(document).ready(function(){
 			let valor2 = uno * i;
 			let valor3 = solo;
 			let y; 
-			console.log(signo1);
-			console.log(signo2);
 			if(signo1 === '+' && signo2 === '-'){
 				y = valor1 + valor2 - valor3;
 			}else if(signo1 === '+' && signo2 === '+'){
@@ -36,11 +36,28 @@ $(document).ready(function(){
 		}
 		$('.graficas').show('slow');
 		$('#añadirValores').append(valores);
-
-		console.log(valores)
-
 	});
 
 
+	//codigo para derivar la funcion
+	$('#derivar').on('click', function(){
+		let cubo = parseInt($('#der_cubo').val());
+		let signo1 = $('#der_signo1').val();
+		let cuadrado = parseInt($('#der_cuadrado').val());
+		let signo2 = $('#der_signo2').val();
+		let uno = parseInt($('#der_uno').val());
+		let signo3 = $('#der_signo3').val();
+		let solo = parseInt($('#der_solo').val());
 
+		let funcion_puesta = `Funcion Inicial: ${cubo}x3 ${signo1} ${cuadrado}x2 ${signo2} ${uno}x ${signo3} ${solo}`;
+
+		let der_cuadrado = cubo * 3;
+		let der_uno = cuadrado * 2;
+		let der_solo = uno;
+		let derivada = `Derivada: ${der_cuadrado}x2 ${signo1} ${der_uno}x ${signo2} ${der_solo}`;
+						
+
+		$('#funcion_puesta').html(funcion_puesta);
+		$('#derivada').html(derivada);
+	})
 });
