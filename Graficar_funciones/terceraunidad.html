@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Graficador de funciones</title>
   <link rel="stylesheet" href="libs/bootstrap.min.css">
   <link rel="stylesheet" href="libs/x-tree-select.css">
-  </head>
+</head>
+
 <body>
 
   <!--Menu-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#">Calculo Diferencial</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -25,14 +29,14 @@
             <a class="nav-link" href="aplicaciones.html">Aplicaciones</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Unidades
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="primeraunidad.html">Primera</a>
               <a class="dropdown-item" href="segundaunidad.html">Segunda</a>
               <a class="dropdown-item" href="terceraunidad.html">Tercera</a>
-
             </div>
           </li>
         </ul>
@@ -41,92 +45,144 @@
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-    </div><!--.contaienr-->
+    </div>
+    <!--.contaienr-->
   </nav>
-  <!--Contenido-->
+
+  <!-- Contenido -->
+
   <div class="container">
     <div class="row my-4">
-     <div class="col-3">
-       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-         <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">1.1 Clasificación de los números reales</a>
-         <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">1. 2 Propiedades de los números reales</a>
-         <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">1.3 Propiedades aritméticas</a>
-         <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ejercicios de práctica</a>
-       </div>
-     </div>
-     <div class="col-9">
-       <div class="tab-content" id="v-pills-tabContent">
-         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-         <p>
-          <h3><strong>Límites y continuidad</strong></h3></p><br/><br/>
-          <strong>Definición formal de límite</strong><br/>
-          Si f(x) se acerca arbitrariamente a un número L cuando x se aproxima a c,
-          entonces el límite de f(x) cuando x se aproxima a c es L.
-          <center>
-            <IMG src="imagenes/constante.png" width="220" height="100"/><br/><br/>
-          </center>
-          <strong>Métodos:</strong><br/>
-          1. Método numérico (tabla de valores)<br/>
-          2. Método gráfico<br/>
-          3. Método analítico (algebra o cálculo)<br/>
-          <strong>Propiedades de los límites y límites especiales</strong><br/>
-          Los límites tienen propiedades que nos permiten determinar el comportamiento
-          de las funciones<br/>
-          <strong>Propiedad de la función constante:</strong> El límite de una constante es igual al valor
-          de la constante.<br/>
-          <center>
-            𝐥𝐢𝐦 𝒃 = 𝒃<br/>  
-            𝒙→𝒄
-          </center>
-          <strong>Propiedad de la identidad:</strong> El límite de una función identidad que se acerca a
-          c, es c.<br/> 
-          <center>
-            𝒍𝒊𝒎  𝒙 = 𝒄 <br/> 
-            𝒙→𝒄
-          </center>
-          <strong>Propiedad de la función potencia:</strong> El límite de una variable elevada a un
-          exponente cuando x se acerca a c, es c elevada al exponente.<br/>
-          <center>
-            𝒍𝒊𝒎 x^n = c^n <br/>
-            𝒙→𝒄
-          </center>
-          <strong>Propiedades de los límites especiales</strong><br/><br/>
-          <center>
-            <IMG src="imagenes/img8.png" width="600" height="550"/><br/><br/>
-          </center>
-          <strong>3.3 Límites laterales y unilaterales</strong><br/><br/>
-          <strong>Los límites unilaterales</strong><br/>
-          indican que la función se aproxima a un determinado
-          valor a medida que x se aproxima a c por la derecha o por la izquierda.<br/>
-          <strong>Los límites laterales.</strong><br/>
-          Para que el límite exista, tanto el límite por la izquierda
-          cómo el límite por la derecha deben ser iguales; cuándo el límite por la
-          izquierda y derecha son diferentes el límite no existe.<br/>
-          <center>
-            <IMG src="imagenes/img9.png" width="700" height="200"/><br/><br/>
-          </center>
-          <strong> Límites laterales y unilaterales – Teorema de
-            la existencia del límite
-          </strong><br/>
-          Si f es una función y c y L son números reales, el límite de f(x) cuando x se aproxima a c
-          es L si y solo si:
-          <center>
-            <IMG src="imagenes/img10.png" width="400" height="100"/><br/><br/>
-          </center>
-
-         </p>
+      <div class="col-3">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <input type="text" name="test" id="selector de temas" placeholder="plz select" />
+          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+            aria-controls="v-pills-home" aria-selected="true">3.1 Definición de Límites</a>
+          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+            aria-controls="v-pills-profile" aria-selected="false">3.2 Propiedades de los límites y límites
+            especiales</a>
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+            aria-controls="v-pills-messages" aria-selected="false">3.3 Límites laterales y unilaterales</a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+            aria-controls="v-pills-settings" aria-selected="false">Ejercicios de práctica</a>
         </div>
+      </div>
+      <div class="col-9">
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <h3><strong>Definición de límites</strong></h3>
+            <p>
+              Si f(x) se acerca arbitrariamente a un número L cuando x se aproxima a c, entonces el límite de f(x)
+              cuando x se aproxima a c es L<br /><br />
+              <center>
+                <IMG src="imagenes/limites_formula.png" width="300" height="100" /><br /><br />
+              </center>
+              <p>
+                <strong>Métodos:</strong> <br />
+                1.- Método numéricos ( tabla de valores)<br />
+                2.- Método gráfico<br />
+                3.- Método analítico (algebra o cálculo) <br /><br />
+                <strong>Ejemplo de límites</strong> <br />
+                <center>
+                  <IMG src="imagenes/ejemLimite.png" width="300" height="100" /><br /><br />
+                </center>
+
+                <strong>Tabla de valores</strong> <br />
+                <center>
+                  <IMG src="imagenes/tablaEjemplo.png" width="800" height="100" /><br /><br />
+                </center>
+              </p>
+            </p>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <h3> <strong>Propiedades de los límites y límites
+                especiales</strong>
+            </h3>
+            <p>
+              Los limites tienen propiedades que nos permiten determinar el comportamiento de las funciones.<br />
+              <h3>Propiedades:</h3>
+            </p>
+            <p>
+              <strong>Propiedades de la Función constante:</strong> El límite de una constante es igual al valor de la
+              constante <br />
+              <center>
+                <IMG src="imagenes/constante.png" width="300" height="100" /><br /><br />
+              </center>
+            </p>
+            <p>
+              <strong>Propiedades de la indentidad:</strong> El límite de una función identidad que se acerca a
+              <strong>c</strong>, es <strong>c</strong>. <br />
+              <center>
+                <IMG src="imagenes/indentidad.png" width="300" height="100" /><br /><br />
+              </center>
+            </p>
+            <p>
+              <strong>propiedades de la función potencia:</strong> El límite de una variable elevada a un exponente
+              cuando <strong>x</strong> se acerca a <strong>c</strong>, es <strong>c</strong> elevada al exponente
+              <strong>c</strong>, es <strong>c</strong>. <br />
+              <center>
+                <IMG src="imagenes/potencia.png" width="300" height="100" /><br /><br />
+              </center>
+            </p>
+            <h3><strong>Propiedades de los límites especiales</strong></h3><br />
+            <center>
+              <IMG src="imagenes/propiedadesEspeciales.png" width="700" height="500" /><br /><br />
+            </center>
+          </div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <h3><strong>Límites unilaterales</strong></h3></b></b>
+            <p>Indican que la función se aproxima a un determinado valor a mediad que <strong>x</strong> se aproxima a
+              <strong>c</strong> por la derecha o por la izquierda </b>
+              <h3><strong>Límites unilaterales</strong></h3></b>
+                <p>
+                    Para que el límite exista, tantoo el límite por la izquierda como el limite por la derecha deben se
+                    iguales; cuando el límite por la izquierda y derecha son diferentes el límite no existe</b></b>
+                </p> 
+                - El <strong>límite por la derecha</strong> significa que <strong>x</strong> se aproxima a
+                <strong>c</strong> tomando valores superiores cada vez más cercanos a <strong>c</strong> y se denota
+                por:</b></b>
+                <center>
+                  <IMG src="imagenes/limite_derecha.png" width="100" height="50" /><br /><br />
+                </center>
+                - El <strong>límite por la izquierda</strong> significa que <strong>x</strong> se aproxima a
+                <strong>c</strong> tomando valores inferiores cada vez más cercanos a <strong>c</strong> y se denota
+                por:</b></b>
+                <center>
+                  <IMG src="imagenes/limite_izquierda.png" width="100" height="50" /><br /><br />
+                </center>
+              </p>
+            </p>
+          </div>
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            <p>
+              <strong>Ejercicios:</strong><br />
+              Identifique a que tipo de números enteros pertenece<br />
+              1.A = {0, 1, 2, 3, 4, 5}<br />
+              2.A = {1, 2, 3, 4, 5}<br />
+              3.A = {-1, -2, -3, -4}<br />
+              4.A = {2, 3, 5, 7, 11, 13}<br />
+              5.A = {-4, -2, 2, 4, 6}<br />
+              6.A = {-7, -5, -3, 3}<br />
+              Identifique a que caso de fracciones comunes pertenece<br />
+              1. 5 / 2<br />
+              2. 1 / 2<br />
+              3. 5 / 5<br />
+              4. 5 / 10<br />
+              5. 1 / 3<br />
+              Identifique el axioma supremo e ínfimo a partir del siguientes conjuntos<br />
+              1.A = {1, 5, 12, 14, 19, 20}<br />
+              2.A = {1/2, 5/1, 1/5, 2/1, 10/5}<br />
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>      
-
-
+  </div>
   <script src="libs/jquery.js"></script>
   <script src="libs/bootstrap.min.js"></script>
   <script src="libs/scripts.js"></script>
   <script src="libs/x-tree-select.js"></script>
   <script src="libs/temas.js"></script>
-
 </body>
 </html>
