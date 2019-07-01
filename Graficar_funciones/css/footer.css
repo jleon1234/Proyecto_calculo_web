@@ -1,7 +1,14 @@
+.nombres {
+	margin-right: 10px;	
+}
+.nombres:hover{
+	text-decoration: none;
+	cursor: none;
+}
 footer {	
 	background-color:#141312;	
 	height: 50%;	
-	color: black;	
+	color: white;	
   padding: 15px;	
 }	
 
