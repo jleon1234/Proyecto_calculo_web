@@ -10,9 +10,9 @@ $(document).ready(function(){
 		let solo = parseInt($('#solo').val());
 
 		if(cuadrado || signo1 || uno || signo2 || solo){
-			let html = `${cuadrado}X2 ${signo1} ${uno}X ${signo2} ${solo}`;
+			let html = `Funcion : ${cuadrado}X2 ${signo1} ${uno}X ${signo2} ${solo}`;
 			let valores = ``;
-	
+			
 			for (var i = -4; i <= 4; i++) {
 				let valor1 = cuadrado * Math.pow(i,2); 
 				let valor2 = uno * i;
@@ -37,6 +37,7 @@ $(document).ready(function(){
 				`;
 			}
 			$('.graficas').show('slow');
+			$('#funcion_mostrar').html(html);
 			$('#añadirValores').append(valores);
 		}else{
 			$('.errores_funcion').show('slow');
