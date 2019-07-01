@@ -34,6 +34,11 @@
 			padding: 10px 20px;
 			border: 1px solid #000;
 		}
+		.errores_derivar,
+		.errores_funcion{
+			width: 100%;
+			display: none;
+		}
 	</style>
 </head>
 <body>
@@ -87,14 +92,17 @@
 
 					<div class="row ">
 						<!--Seccion para añadir la funcion-->
-						<div class="col-md-4 funcion">
+						<div class="col-md-6 funcion">
 							<input type="number" id="cuadrado" placeholder="12" min="0" pattern="^[0-9]+">x2<input type="text" id="signo1" placeholder="+"><input type="number" id="uno" placeholder="2" min="0" pattern="^[0-9]+">X<input type="text" id="signo2" placeholder="-" ><input type="number" id="solo" placeholder="10" min="0" pattern="^[0-9]+"> <br>
 							<button class="btn btn-primary my-3" id="graficar">Graficar</button>
+							<div class="alert alert-danger errores_funcion" role="alert">
+								Por favor llene todos los campos para obtener los datos
+							</div>
 						</div>
 						
 
 						<!--Seccion para añadir la grafica-->
-						<div class="col-md-8 graficas">
+						<div class="col-md-6 graficas">
 							<div class="row">
 								<div class="col-md-3">
 									<div class="tablaValores">
@@ -125,6 +133,9 @@
 						<div class="col-md-6">
 							<input type="number" id="der_cubo"  min="0" pattern="^[0-9]+">x3<input type="text" id="der_signo1" ><input type="number" id="der_cuadrado"  min="0" pattern="^[0-9]+">x2<input type="text" id="der_signo2" ><input type="number" id="der_uno"  min="0" pattern="^[0-9]+">X<input type="text" id="der_signo3"  ><input type="number" id="der_solo"  min="0" pattern="^[0-9]+"> <br>
 							<button class="btn btn-primary my-3" id="derivar">Derivar</button>
+							<div class="alert alert-danger errores_derivar" role="alert">
+								Por favor llene todos los campos para poder derivar
+							</div>
 						</div>
 
 
@@ -155,3 +166,4 @@
 	<script src="libs/temas.js"></script>
 </body>
 </html>
+
