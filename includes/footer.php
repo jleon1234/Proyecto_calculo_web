@@ -74,9 +74,12 @@
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
     <!-- ALL JS FILES -->
+    <script src="js/jquery.js"></script>
     <script src="js/all.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
+    <script src="js/treeview.js"></script>
 
 </body>
 </html>
