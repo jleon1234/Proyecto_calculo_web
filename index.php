@@ -10,7 +10,7 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <div id="home" class="first-section" style="background-image:url('uploads/slider-01.jpg');">
+            <div id="home" class="first-section" style="background-image:url('uploads/portada.jpg');">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12 text-center">
@@ -27,14 +27,14 @@
             </div><!-- end section -->
         </div>
         <div class="item">
-            <div id="home" class="first-section" style="background-image:url('uploads/slider-02.jpg');">
+            <div id="home" class="first-section" style="background-image:url('uploads/portada_1.jpg');">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12 text-center">
                             <div class="big-tagline">
                                 <h3>Calculo Diferencial</h3>
                                 <h2 data-animation="animated zoomInRight">Graficar <strong>Funciones</strong></h2>
-                                <p class="lead" data-animation="animated fadeInLeft">Tenemos una App que te ayudar a graficar fucniones cuadraticas facilmente. </p>
+                                <p class="lead" data-animation="animated fadeInLeft">Tenemos una App que te ayudar a graficar funciones cuadráticas facilmente. </p>
                                     <a data-scroll href="graficar.php" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInLeft">Probar App</a>
                             </div>
                         </div>
@@ -43,14 +43,14 @@
             </div><!-- end section -->
         </div>
         <div class="item">
-            <div id="home" class="first-section" style="background-image:url('uploads/slider-03.jpg');">
+            <div id="home" class="first-section" style="background-image:url('uploads/portada_2.jpg');">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12 text-center">
                             <div class="big-tagline">
                                 <h3>Calculo Diferencial</h3>
                                 <h2 data-animation="animated zoomInRight">Derivar <strong>Funciones</strong></h2>
-                                <p class="lead" data-animation="animated fadeInLeft">Tenemos una Appquie te ayuda a derivar las funciones</p>
+                                <p class="lead" data-animation="animated fadeInLeft">Tenemos una App que te ayuda a derivar las funciones</p>
                                     <a data-scroll href="derivar.php" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInLeft">Probar App</a>
                             </div>
                         </div>

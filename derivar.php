@@ -4,7 +4,7 @@
 
 <div class="all-title-box">
     <div class="container text-center">
-        <h1>Derivar Funcion<span class="m_1">Descripcion corta de la unidad</span></h1>
+        <h1>Derivar Función<span class="m_1">Descripcion corta de la unidad</span></h1>
     </div>
 </div>
 

@@ -4,7 +4,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <h2 style="color:#fff" >Calculo Direfencial</h2>
+                            <h2 style="color:#fff" >Cálculo Direfencial</h2>
                         </div>
                        <p>En este portal encontraras mucha información a todo lo referente a Calculo Diferencial desde funciones hasta derivadas. Siéntete libre de explorar en nuestro portal que esta lleno de mucha teoria práctica e intuitiva para que no tengas ningún problema dentro de nuestro portal. </p>
                     </div><!-- end clearfix -->
@@ -13,7 +13,7 @@
 				<div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <h3>Informacion</h3>
+                            <h3>Información</h3>
                         </div>
                         <ul class="footer-links">
                             <li><a href="index.php">Inicio</a></li>
@@ -48,11 +48,10 @@
                             <h3>Social</h3>
                         </div>
                         <ul class="footer-links">
-                            <li><a href="#"><i class="fa fa-facebook"></i> 22.543 Likes</a></li>
-                            <li><a href="#"><i class="fa fa-github"></i> 128 Projects</a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i> 12.860 Followers</a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i> 3312 Shots</a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i>3331 Pins</a></li>
+                            <li><a href="https://github.com/jleon1234"><i class="fa fa-github"></i> @jleon1234</a></li>
+                            <li><a href="https://github.com/erickgjs99"><i class="fa fa-github"></i> @erickgjs99</a></li>
+                            <li><a href="https://github.com/davidpillco"><i class="fa fa-github"></i> @davidpillco</a></li>
+                            <li><a href="https://github.com/davisalex22"><i class="fa fa-github"></i> @davisalex22</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
@@ -63,6 +62,9 @@
     <div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
+                <div class="footer-right">
+                    <img src="uploads/logo.png">         
+                </div>
                 <div class="footer-left">                   
                     <p class="footer-company-name">Todos los derechos Reservados. &copy; 2019 </p>
                 </div>
