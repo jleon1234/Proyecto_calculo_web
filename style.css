@@ -175,6 +175,8 @@ blockquote {
 -------------------------------------------------------------------*/
 
 
+
+
 /*------------------------------------------------------------------
     WP CORE
 -------------------------------------------------------------------*/
@@ -1716,7 +1718,7 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
+    line-height: 2px !important;
 }
 
 .footer {
@@ -1959,7 +1961,7 @@ select.mobile-device {
     color: #999 !important;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -1968,7 +1970,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
@@ -1981,7 +1983,7 @@ select.mobile-device {
     background: #00aeef;
     z-index: 11000;
     position: fixed;
-    display: block
+    display: block;
 }
 
 .preloader {
@@ -2368,7 +2370,6 @@ span.m_1 {
 .map-box{
 	display: none;
 }
-
 
 
 

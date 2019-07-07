@@ -1,2 +1,14 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
+.contenido{
+    margin: 20px 0;
+}
+.contenido .menu_temas{
+    height: 90vh;
+    color:#000;
+}
+.contenido .contenido_temas{
+    overflow-y:scroll; 
+    max-height: 90vh;
+    min-height: 90vh;
+}
