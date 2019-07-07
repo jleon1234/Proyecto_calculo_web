@@ -141,7 +141,7 @@
         <nav class="megamenu navbar navbar-default">
             <div class="container">
                 <div class="navbar-header pt-3">
-                   <h2 class="titulo">Calculo Diferencial</h2>
+                   <h2 class="titulo">Cálculo Diferencial</h2>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
