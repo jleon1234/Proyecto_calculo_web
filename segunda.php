@@ -163,7 +163,43 @@
                     <p>
                         <center>
                             <img src = "images/imagUnid2/unid2_1.png" width = 700  high = 410>
-                        </center>
+                        </center></br>
+                    </p>
+                </div>
+                <div id = "funciones_L">
+                    <h2><b>3. Funciones Logarítmicas</b></h2>
+                </div>
+                <div id = "concepto3">
+                    <h2><b>3.1 Concepto</b></h2>
+                        <p>
+                            Las funciones logarítmicas tienen la forma:
+                            <center>
+                                <img src = "images/imagUnid2/log1.png">
+                            </center></br>
+                            <b>Conceptos importantes</b></br>
+                            •	El dominio son todos los números reales positivos (0, ∞).</br>
+                            •	La imagen/rango son todos los números reales (−∞, ∞).</br>
+                            <b>Relación logarítmica y función exponencial</b>
+                            <center>
+                                <img src = "images/imagUnid2/log2.png">
+                            </center>
+                        </p>
+                </div>
+                <div id = "prioridades2">
+                    <h2><b>3.2 Prioridades en funciones logarítmicas</b></h2>
+                        <p>
+                        Prioridades de los exponentes:
+                        <center>
+                            <img src = "images/imagUnid2/unid2_7.png">
+                        </center></br>
+                        </p>
+                </div>
+                <div id = "ejemplo3">
+                    <h2><b>3.3 Ejemlo</b></h2>
+                    <p>
+                        <center>
+                            <img src = "images/imagUnid2/Ecuaciones-logarítmicas.png">
+                        </center></br>
                     </p>
                 </div>
             </div>
