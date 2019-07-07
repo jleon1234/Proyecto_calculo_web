@@ -28,7 +28,7 @@
                     <li><a hrfe = "#funciones_E">2. Funciones Exponenciales</a></li>
                     <ul>
                         <li><a hrfe = "#concepto2">2.1 Concepto</a></li>   
-                        <li><a hrfe = "#prioridades1">2.2 Prioridades en funciones exponenciales</a></li>   
+                        <li><a hrfe = "#prioridades1">2.2 Prioridades</a></li>   
                         <li><a hrfe = "#ejemplo2">2.3 Ejemplo</a></li>    
                     </ul>
                     <li><a hrfe = "#funciones_L">3. Funciones Logarítmicas</a></li>
@@ -130,6 +130,41 @@
                         <center>
                             <img src = "images/imagUnid2/unid2_8.png" width = 700  high = 410></br>
                         </center></br>
+                </div>
+                <div id = "funciones_E">
+                    <h2><b>2.  Funciones Exponenciales</b></h2></br>
+                </div>
+                <div id = "concepto2">
+                    <h2><b>2.1  Concepto</b></h2></br>
+                        <p>
+                            Las funciones exponenciales tienen la forma:
+                            <center>
+                                <img src = "images/imagUnid2/exp.png">
+                            </center>
+                            a = constante</br>
+                            x = exponencial (variable independiente)</br>
+                            <b>Conceptos importantes</b></br>
+                            •	La gráfica de toda función exponencial pasa por el punto (0,1)</br>
+                            •	El dominio son todos los números reales (−∞, ∞).</br>
+                            •	La imagen/rango son todos los números reales positivos (0 ∞)</br>
+                        </p>
+                </div>
+                <div id = "prioridades1">
+                    <h2><b>2.2  Prioridades en Funciones Exponenciales</b></h2></br>
+                        <p>
+                            Prioridades de los exponentes:
+                                <center>
+                                    <img src = "images/imagUnid2/unid2_6.png">
+                                </center>
+                        </p>
+                </div>
+                <div id = "ejemplo2">
+                    <h2><b>2.3 Ejemplo</b></h2></br>
+                    <p>
+                        <center>
+                            <img src = "images/imagUnid2/unid2_1.png" width = 700  high = 410>
+                        </center>
+                    </p>
                 </div>
             </div>
         </div>
