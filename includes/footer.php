@@ -6,7 +6,7 @@
                         <div class="widget-title">
                             <h2 style="color:#fff" >Cálculo Direfencial</h2>
                         </div>
-                       <p>En este portal encontraras mucha información a todo lo referente a Calculo Diferencial desde funciones hasta derivadas. Siéntete libre de explorar en nuestro portal que esta lleno de mucha teoria práctica e intuitiva para que no tengas ningún problema dentro de nuestro portal. </p>
+                       <p>En este portal encontraras mucha información a todo lo referente a Cálculo Diferencial desde funciones hasta derivadas. Siéntete libre de explorar en nuestro portal que esta lleno de mucha teoria práctica e intuitiva para que no tengas ningún problema dentro de nuestro portal. </p>
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 

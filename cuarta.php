@@ -1,7 +1,8 @@
+<!--Inicio Header-->
 <?php 
     include_once('includes/header.php');
 ?>
-
+<!--Fin Header-->
 <div class="all-title-box">
     <div class="container text-center">
         <h1>Cuarta Unidad<span class="m_1">Derivadas y sus propiedades</span></h1>
@@ -27,8 +28,8 @@
                         <li><a href="#raiz">Regla: Raíz Cuadrada</a></li>
                     </ul>
                 </ul>
-            </div>
-        </div>
+            </div><!--Fin class= "menu_temas"-->  
+        </div><!--Fin class= "col-md-4"-->
         <!-- Contenido -->
         <div class="col-md-8 ">
             <div class="contenido_temas">
@@ -87,18 +88,13 @@
                     <h2><b>Ejemplos.-</b></h2>
                     <div align="center">
                         <img src="images/unidad4/Raiz_1.png"width="350" height="400">
-                    </div>
-
-   
+                    </div>   
                 </div>
-
-
-
-            </div>
-        </div>
-    </div>
-</div>
+            </div><!--Fin class= "contenido_temas"-->
+        </div><!--Fin class= "col-md-8"-->
+    </div><!--Fin class= "row"-->
+</div><!--Fin class= "container"-->
 <div class="clear"></div>
 
-
+<!--Footer-->
 <?php include_once('includes/footer.php') ?>
