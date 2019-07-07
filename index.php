@@ -15,7 +15,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12 text-center">
                             <div class="big-tagline">
-                                <h3>Calculo Diferencial</h3>
+                                <h3>Cálculo Diferencial</h3>
                                 <h2 data-animation="animated zoomInRight">Introducción al Cálculo Diferencial</h2>
                                 <p class="lead" data-animation="animated fadeInLeft">Entender con propiedad la teoría y fundamentos del cálculo diferencial, para formular y resolver problemas. </p>
                                 <a data-scroll href="primera.php" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInLeft">Ir al Contenido</a>

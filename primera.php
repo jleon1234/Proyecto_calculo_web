@@ -26,10 +26,10 @@
                     </ul>
                     <li><a href="#propiedadesaritmeticas">3. Propiedades aritméticas</a></li>
                     <ul>
-                        <li><a href="#suma">Propiedad conmutativa</a></li>
+                        <li><a href="#suma">Propiedad Conmutativa</a></li>
                         <li><a href="#suma">Propiedad Asociativa</a></li>
-                        <li><a href="#suma">Propiedad distributiva</a></li>
-                        <li><a href="#suma">Propiedad distributiva</a></li>
+                        <li><a href="#suma">Propiedad Distributiva</a></li>
+                        <li><a href="#suma">Elemento Neutro </a></li>
                         <li><a href="#suma">Ejercicios</a></li>
 
                     </ul>
