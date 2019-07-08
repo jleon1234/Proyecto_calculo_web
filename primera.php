@@ -16,9 +16,9 @@
                 <ul>
                     <li><a href="#numeroReales">1. Clasificación de los números reales</a></li>
                     <ul>
-                        <li><a href="numeroEnteros">Números Enteros (Z)</a></li>
-                        <li><a href="fraccionesComunes">Fracciones Comunes</a></li>
-                        <li><a href="decimales">Decimales</a></li>
+                        <li><a href="#numeroEnteros">Números Enteros (Z)</a></li>
+                        <li><a href="#fraccionesComunes">Fracciones Comunes</a></li>
+                        <li><a href="#decimales">Decimales</a></li>
                     </ul>
                     <li><a href="#propiedades1">2. Propiedades de los números reales</a></li>
                     <ul>
@@ -170,7 +170,7 @@
                     </p> 
                     <center><IMG src="images/simbolos_comparacion.png" width="500" height="200"/><br/><br/></center>
                 </div>
-                <div id="Ejercicios">
+                <div id="ejercicios">
                     <h2><b>4. Ejercicios de práctica</b></h2>
                     <p>
                       Identifique a que tipo de números enteros pertenece<br/> 
