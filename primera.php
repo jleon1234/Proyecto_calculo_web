@@ -130,7 +130,7 @@
                       La suma de A + B = C es igual que B + A = C <br/>
                       La multiplicación de A * B = C es igual que B * A = C<br/><br/> 
                     </p>
-                    
+                    <center><img src="images/ejemplo_conmutativa.jfif" width="300" height="200"></center>
                 </div>
                 <div id="asociativa">
                     <h3><b>3.2 Propiedad Asociativa </b></h3>
@@ -139,6 +139,7 @@
                     <strong>Ejemplos:</strong><br/>
                     La suma de (A + B)+ C = D es igual que A +(B + C) = D<br/>
                     La multiplicación de (A * B) * C = D es igual que A*(B * C) = D<br/><br/>
+                    <center><img src="images/ejemplo_asociativa.png" width="555" height="200"></center>
                     </p> 
                 </div>
                 <div id="distributiva">
@@ -152,6 +153,7 @@
                       <strong> Forma desarrollada(AX + BX)</strong><br/>  
                       2*(4+3)=(4*2+3*2)=14<br/>
                       3*(7–2)=(7*3–2*3)=15<br/><br/>
+                      <center><img src="images/ejemplo_distributiva.jfif" width="300" height="200"></center>
                     </p>
                 </div>
                 <div id="elementoneutro">
@@ -165,6 +167,7 @@
                       <strong>A/1=A</strong><br/>  
                       8/1=8<br/>
                       25/1=25<br/><br/>
+                      <center><img src="images/ejemplo_elementoneutro.png" width="300" height="200"></center>
                       <strong>Importante</strong><br/> 
                       La prioridad de los operadores establece que operación debe realizarse primero<br/><br/>
                     </p> 
