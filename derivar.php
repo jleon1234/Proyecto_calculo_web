@@ -4,7 +4,7 @@
 
 <div class="all-title-box">
     <div class="container text-center">
-        <h1>Derivar Función<span class="m_1">Aplicacion que te ayuda a derivar una funcion de la forma mas basica</span></h1>
+        <h1>Derivar Función<span class="m_1">Aplicación que te ayuda a derivar una función de la forma mas básica</span></h1>
     </div>
 </div>
 
