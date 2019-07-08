@@ -21,7 +21,7 @@
                             <li><a href="segunda.php">Segunda Unidad</a></li>
 							<li><a href="tercera.php">Tercera Unidad</a></li>
 							<li><a href="cuarta.php">Cuarta Unidad</a></li>
-							<li><a href="graficar.php">Graficar Funciones</a></li>
+							<li><a href="graficar.php">Calculadora de funciones</a></li>
 							<li><a href="derivar.php">Derivar Funciones</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->

@@ -58,12 +58,6 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-sm-10">
-									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-										Submit
-									</button>
-									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
-								</div>
 							</div>
 							</form>
 						</div>
@@ -150,7 +144,7 @@
                         <li><a href="segunda.php">Segunda Unidad</a></li>
                         <li><a href="tercera.php">Tercera Unidad</a></li>
                         <li><a href="cuarta.php">Cuarta Unidad</a></li>
-                        <li><a href="graficar.php">Graficador de funciones</a></li>
+                        <li><a href="graficar.php">Calculadora de funciones</a></li>
                         <li><a href="derivar.php">Derivar Funciones</a></li>
                     </ul>
                 </div>

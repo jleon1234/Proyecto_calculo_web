@@ -33,7 +33,7 @@
                         <div class="col-md-12 col-sm-12 text-center">
                             <div class="big-tagline">
                                 <h3>Cálculo Diferencial</h3>
-                                <h2 data-animation="animated zoomInRight">Graficar <strong>Funciones</strong></h2>
+                                <h2 data-animation="animated zoomInRight">Tabla de valores de <strong>Funciones</strong></h2>
                                 <p class="lead" data-animation="animated fadeInLeft">Tenemos una App que te ayudar a graficar funciones cuadráticas facilmente. </p>
                                     <a data-scroll href="graficar.php" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInLeft">Probar App</a>
                             </div>
