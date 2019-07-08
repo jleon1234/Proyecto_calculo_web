@@ -16,9 +16,9 @@
                 <ul>
                     <li><a href="#numeroReales">1. Clasificación de los números reales</a></li>
                     <ul>
-                        <li><a href="">Números Enteros (Z)</a></li>
-                        <li><a href="">Fracciones Comunes</a></li>
-                        <li><a href="">Decimales</a></li>
+                        <li><a href="numeroEnteros">Números Enteros (Z)</a></li>
+                        <li><a href="fraccionesComunes">Fracciones Comunes</a></li>
+                        <li><a href="decimales">Decimales</a></li>
                     </ul>
                     <li><a href="#propiedades1">2. Propiedades de los números reales</a></li>
                     <ul>
@@ -26,11 +26,11 @@
                     </ul>
                     <li><a href="#propiedadesaritmeticas">3. Propiedades aritméticas</a></li>
                     <ul>
-                        <li><a href="#suma">Propiedad Conmutativa</a></li>
-                        <li><a href="#suma">Propiedad Asociativa</a></li>
-                        <li><a href="#suma">Propiedad Distributiva</a></li>
-                        <li><a href="#suma">Elemento Neutro </a></li>
-                        <li><a href="#suma">Ejercicios</a></li>
+                        <li><a href="#conmutativa">Propiedad Conmutativa</a></li>
+                        <li><a href="#asociativa">Propiedad Asociativa</a></li>
+                        <li><a href="#distributiva">Propiedad Distributiva</a></li>
+                        <li><a href="#elementoneutro">Elemento Neutro </a></li>
+                        <li><a href="#ejercicios">Ejercicios</a></li>
 
                     </ul>
                 </ul>
