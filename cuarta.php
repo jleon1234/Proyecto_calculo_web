@@ -25,6 +25,7 @@
                         <li><a href="#producto">Regla: Producto</a></li>
                         <li><a href="#division">Regla: División</a></li>
                         <li><a href="#raiz">Regla: Raíz Cuadrada</a></li>
+                        <li><a href="#cadena">Regla: Cadena</a></li>
                     </ul>
                 </ul>
             </div><!--Fin class= "menu_temas"-->  
@@ -88,6 +89,10 @@
                     <div align="center">
                         <img src="images/unidad4/Raiz_1.png"width="350" height="400">
                     </div>
+                <div id = "cadena">
+                    <h3><b>2.5.- Regla: Cadena</b></h3>
+                    <center><IMG src="images/cadena.png" width="300" height="100" /><br/><br/></center>
+                </div>    
                 <div id = "logaritmos">
                     <h3><b>2.4.- Regla: Logaritmos</b></h3>
                     <p>
