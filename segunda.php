@@ -14,28 +14,28 @@
         <div class="col-md-4 menu-temas">
             <div class = "menu_temas">
             <ul>
-                <li><a hrfe = "#funciones">1. Funciones</a></li>
+                <li><a href= "#funciones">1. Funciones</a></li>
                 <ul>
-                    <li><a hrfe = "#concepto1">1.1 Concepto</a></li>    
-                    <li><a hrfe = "#representacion">1.2 Representación de una función</a></li>
-                    <li><a hrfe = "#clasificacion">1.3 Clasificación de funciones</a></li>
-                    <li><a hrfe = "#funcionpoli">1.4 Función polinominal</a></li>
+                    <li><a href= "#concepto1">1.1 Concepto</a></li>    
+                    <li><a href= "#representacion">1.2 Representación de una función</a></li>
+                    <li><a href= "#clasificacion">1.3 Clasificación de funciones</a></li>
+                    <li><a href= "#funcionpoli">1.4 Función polinominal</a></li>
                     <ul>
-                        <li><a hrfe = "#tipopoli">1.4.1 Tipos de función polinominal</a></li>
+                        <li><a href= "#tipopoli">1.4.1 Tipos de función polinominal</a></li>
                     </ul>
-                        <li><a hrfe = "#ejemplo1">1.5 Ejemplos</a></li>
+                        <li><a href= "#ejemplo1">1.5 Ejemplos</a></li>
                     </ul>
-                    <li><a hrfe = "#funciones_E">2. Funciones Exponenciales</a></li>
+                    <li><a href= "#funciones_E">2. Funciones Exponenciales</a></li>
                     <ul>
-                        <li><a hrfe = "#concepto2">2.1 Concepto</a></li>   
-                        <li><a hrfe = "#prioridades1">2.2 Prioridades</a></li>   
-                        <li><a hrfe = "#ejemplo2">2.3 Ejemplo</a></li>    
+                        <li><a href= "#concepto2">2.1 Concepto</a></li>   
+                        <li><a href= "#prioridades1">2.2 Prioridades</a></li>   
+                        <li><a href= "#ejemplo2">2.3 Ejemplo</a></li>    
                     </ul>
-                    <li><a hrfe = "#funciones_L">3. Funciones Logarítmicas</a></li>
+                    <li><a href= "#funciones_L">3. Funciones Logarítmicas</a></li>
                     <ul>
-                        <li><a hrfe = "#concepto3">3.1 Concepto</a></li>   
-                        <li><a hrfe = "#prioridades2">3.2 Prioridades en funciones logarítmicas</a></li>   
-                        <li><a hrfe = "#ejemplo3">3.3 Ejemplo</a></li>    
+                        <li><a href= "#concepto3">3.1 Concepto</a></li>   
+                        <li><a href= "#prioridades2">3.2 Prioridades en funciones logarítmicas</a></li>   
+                        <li><a href= "#ejemplo3">3.3 Ejemplo</a></li>    
                     </ul>
                 </ul>
             </div>
