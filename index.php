@@ -72,6 +72,33 @@
     </div>
 </div>
 
+<div id="overviews" class="section wb">
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h4>UTPL 2019</h4>
+                        <h2>Funciones Matematicas</h2>
+                        <p class="lead">Las Funciones nos sirven para modelar diversas relaciones entre distintos fenómenos o situaciones, que suceden en nuestra vida cotidiana, que tienen una causa y efecto, por ejemplo, la cantidad de kilómetros por hora recorridos por un vehículo depende de la velocidad, que el área de un cuadrado depende de la longitud de su lado, o que el costo de la producción está en función al valor de los materiales utilizados</p>
+
+                        <p> </p>
+
+                        <a href="segunda.php" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Saber mas sobre funciones</a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+				<div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/mvj_KLgO_5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe> -->
+                        <img src="images/funciones_mate.jpg" alt="" class="img-responsive img-rounded">
+                        <!-- <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a> -->
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+        </div><!-- end container -->
+    </div><!-- end section -->
 
 
 

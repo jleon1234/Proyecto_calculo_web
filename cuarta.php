@@ -18,7 +18,6 @@
                     <li><a href="#derivadas">1.-Derivadas</a></li>
                     <ul>
                         <li><a href="#derivadas">¿ Qué son las derivadas ?</a></li>
-                        <li><a href="">Subtitulo 2</a></li>
                     </ul>
                     <li><a href="#operacion">2.- Operaciones Con Derivadas</a></li>
                     <ul>
@@ -90,16 +89,16 @@
                         <img src="images/unidad4/Raiz_1.png"width="350" height="400">
                     </div>
                 <div id = "logaritmos">
-                <h3><b>2.4.- Regla: Logaritmos</b></h3>
-                <p>
-                La derivada de un logaritmo en base a es igual a la derivada de la función dividida por la función, y por el logaritmo en base a de e.
-                <center> <img src="images/derivar_logaritmos.png" width="400" height = "100"></center><br/>
-                O tambien puede ser expresado como: 
-                <center> <img src="images/derivar_logaritmo1.png" width="400" height = "100"></center>
-                <h3><b>Ejemplos:</b></h3>
-                <center><img src="images/derivar_logaritmos_ejemplos.png" width="600" height = "800"> </center>
+                    <h3><b>2.4.- Regla: Logaritmos</b></h3>
+                    <p>
+                    La derivada de un logaritmo en base a es igual a la derivada de la función dividida por la función, y por el logaritmo en base a de e.
+                    <center> <img src="images/derivar_logaritmos.png" width="400" height = "100"></center><br/>
+                    O tambien puede ser expresado como: 
+                    <center> <img src="images/derivar_logaritmo1.png" width="400" height = "100"></center>
+                    <h3><b>Ejemplos:</b></h3>
+                    <center><img src="images/derivar_logaritmos_ejemplos.png" width="600" height = "800"> </center>
 
-                </p>
+                    </p>
                 </div>
                 </div>
             </div><!--Fin class= "contenido_temas"-->

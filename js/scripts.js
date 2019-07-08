@@ -109,8 +109,51 @@ $(document).ready(function(){
 
 
 
-    //**Graficar funcion  */
+    //**Derivar  funcion  */
 
-    // var windowWidth = window.innerWidth;
+    $('#derivar').on('click', function(){
+		//obtenemos los valores de los inputs y los guardamos en las variables
+		let cubo = parseInt($('#der_cubo').val());
+		let signo1 = $('#der_signo1').val();
+		let cuadrado = parseInt($('#der_cuadrado').val());
+		let signo2 = $('#der_signo2').val();
+		let uno = parseInt($('#der_uno').val());
+		let signo3 = $('#der_signo3').val();
+		let solo = parseInt($('#der_solo').val());
+		let exponente3 = 3;
+        let exponente2 = 2;
+        let html = '';
+		
+		if(cubo && signo1 && cuadrado && signo2 && uno && signo3 && solo){
+			let funcion_puesta = `<b>Funcion Inicial:</b> ${cubo}x${exponente3} ${signo1} ${cuadrado}x${exponente2} ${signo2} ${uno}x ${signo3} ${solo}`;
+
+			let der_cuadrado = cubo * exponente3;
+			let der_uno = cuadrado * exponente2;
+            let der_solo = uno;
+            html += `<h3>Primero se multiplica los exponentes por la base</h3> 
+                <p>(${cubo}* ${exponente3})X${exponente3} ${signo1} (${cuadrado} * ${exponente2})X${exponente2} ${signo2} (${uno} * 1 )X${signo3} ${solo}</p>
+                <p>${der_cuadrado}x${exponente3} ${signo1} ${der_uno}x${exponente2} ${signo2} ${uno}X</p>
+                <h3>Luego se le resta uno al exponente</h3>
+                <p>${der_cuadrado}X(${exponente3} - 1)${signo1} ${der_uno}X(${exponente2} - 1)${signo2} ${der_solo}</p>
+            `;
+			exponente3 -= 1;
+			exponente2 -= 1;
+			if(exponente2 == 1){
+				exponente2 = "";
+			}
+			html += `<p><b>Resultado:</b> ${der_cuadrado}X${exponente3} ${signo1} ${der_uno}X${exponente2} ${signo2} ${der_solo} </p>`;
+							
+
+			$('#funcion_puesta').html(funcion_puesta);
+			$('#derivada').html(html);
+		}else{
+            $('.errores_derivar').show('slow');
+            setTimeout(function(){
+                $('.errores_derivar').hide('slow');
+            }, 3000)
+		}
+		
+		
+	})
     
 });
