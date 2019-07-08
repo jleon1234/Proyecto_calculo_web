@@ -77,7 +77,7 @@
 <!--SABER MAS SOBRE Los Números, Sus Clasificaciones-->
         <div class="container">
         
-            <div class="row">
+            <div class="row seccion_inicio">
                 <div class="col-md-6">
                     <div class="message-box">
                         <h4>UTPL 2019</h4>
@@ -101,7 +101,16 @@
         </div><!-- end container -->
 <!--SABER MAS SOBRE Funciones-->
         <div class="container">        
-            <div class="row">
+            <div class="row seccion_inicio">
+                
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/mvj_KLgO_5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe> -->
+                        <img src="images/funciones_mate.jpg" alt=""width="300" height="400"></b></b>
+                        <!-- <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a> -->
+                    </div><!-- end media -->
+                </div><!-- end col -->
+
                 <div class="col-md-6">
                     <div class="message-box">
                         <h4>UTPL 2019</h4>
@@ -113,20 +122,12 @@
                         <a href="segunda.php" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Saber mas sobre funciones</a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
-                
-                <div class="col-md-6">
-                    <div class="post-media wow fadeIn">
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/mvj_KLgO_5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe> -->
-                        <img src="images/funciones_mate.jpg" alt=""width="300" height="400"></b></b>
-                        <!-- <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a> -->
-                    </div><!-- end media -->
-                </div><!-- end col -->
             </div><!-- end row -->
         </div><!-- end container -->
 <!--SABER MAS SOBRE Límites-->
      <div class="container">
         
-            <div class="row">
+            <div class="row seccion_inicio">
                 <div class="col-md-6">
                     <div class="message-box">
                         </b></b><h4>UTPL 2019</h4>
@@ -152,7 +153,15 @@
 <!--SABER MAS SOBRE derivadas-->
  <div class="container">
         
-            <div class="row">
+            <div class="row seccion_inicio">                
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/mvj_KLgO_5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe> -->
+                        <img src="images/derivada.jpg" alt="" width="100" height="400">
+                        <!-- <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a> -->
+                    </div><!-- end media -->
+                </div><!-- end col -->
+
                 <div class="col-md-6">
                     <div class="message-box">
                         <h4>UTPL 2019</h4>
@@ -164,14 +173,7 @@
                         <a href="cuarta.php" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Saber mas sobre Derivadas</a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
-                
-                <div class="col-md-6">
-                    <div class="post-media wow fadeIn">
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/mvj_KLgO_5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe> -->
-                        <img src="images/derivada.jpg" alt="" width="100" height="400">
-                        <!-- <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a> -->
-                    </div><!-- end media -->
-                </div><!-- end col -->
+
             </div><!-- end row -->
         </div><!-- end container -->
 </div><!-- end section -->
